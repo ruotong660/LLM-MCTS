@@ -1,0 +1,13 @@
+time_step,semantic_scenario_key,semantic_param_path,scenario_name,action_value,prior_action,score,env_reward,planning_time_seconds,method,price_weight,carbon_weight,low_q,high_q,smooth_weight,peak_charge_penalty_weight
+0,peak_aware,results/fixed_parameter_control/smoke/parameters/peak_aware.json,peak_load_control,0.0,0.0,0.2524627587413831,-8.055133443705238,0.11776375770568848,fixed_peak,0.5,0.5,0.2,0.8,0.3,1.1
+1,peak_aware,results/fixed_parameter_control/smoke/parameters/peak_aware.json,peak_load_control,0.0,0.0,0.22075863504247756,-4.665883344936368,0.11800003051757812,fixed_peak,0.5,0.5,0.2,0.8,0.3,1.1
+2,peak_aware,results/fixed_parameter_control/smoke/parameters/peak_aware.json,peak_load_control,0.0,0.0,0.2140975372452004,-2.9147168214162207,0.11632513999938965,fixed_peak,0.5,0.5,0.2,0.8,0.3,1.1
+3,peak_aware,results/fixed_parameter_control/smoke/parameters/peak_aware.json,peak_load_control,0.0,0.0,0.20568347540851883,-2.3755667322635645,0.11806797981262207,fixed_peak,0.5,0.5,0.2,0.8,0.3,1.1
+4,peak_aware,results/fixed_parameter_control/smoke/parameters/peak_aware.json,peak_load_control,0.0,0.0,0.20775288114850635,-2.979900163682302,0.12708497047424316,fixed_peak,0.5,0.5,0.2,0.8,0.3,1.1
+5,peak_aware,results/fixed_parameter_control/smoke/parameters/peak_aware.json,peak_load_control,0.0,0.0,0.22257774911450756,-3.5377333562533053,0.12556982040405273,fixed_peak,0.5,0.5,0.2,0.8,0.3,1.1
+6,peak_aware,results/fixed_parameter_control/smoke/parameters/peak_aware.json,peak_load_control,0.0,0.0,0.23168585416085397,-3.153466582298279,0.12277817726135254,fixed_peak,0.5,0.5,0.2,0.8,0.3,1.1
+7,peak_aware,results/fixed_parameter_control/smoke/parameters/peak_aware.json,peak_load_control,0.1,0.0,0.2373775240577645,-4.260350078344345,0.12431526184082031,fixed_peak,0.5,0.5,0.2,0.8,0.3,1.1
+8,peak_aware,results/fixed_parameter_control/smoke/parameters/peak_aware.json,peak_load_control,0.0,0.0,0.30041088973689495,-3.2720500230789185,0.12426495552062988,fixed_peak,0.5,0.5,0.2,0.8,0.3,1.1
+9,peak_aware,results/fixed_parameter_control/smoke/parameters/peak_aware.json,peak_load_control,0.0,0.0,0.328556486975669,-2.439316689968109,0.13230609893798828,fixed_peak,0.5,0.5,0.2,0.8,0.3,1.1
+10,peak_aware,results/fixed_parameter_control/smoke/parameters/peak_aware.json,peak_load_control,0.0,0.0,0.3521425802852922,-1.7222501337528229,0.1506659984588623,fixed_peak,0.5,0.5,0.2,0.8,0.3,1.1
+11,peak_aware,results/fixed_parameter_control/smoke/parameters/peak_aware.json,peak_load_control,0.0,0.0,0.38250544526047,-1.3070164322853088,0.21678900718688965,fixed_peak,0.5,0.5,0.2,0.8,0.3,1.1

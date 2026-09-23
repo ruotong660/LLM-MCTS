@@ -1,0 +1,7 @@
+{
+  "seed": 42,
+  "strategy": "dynamic",
+  "steps": 12,
+  "seconds": 2.3447170829999777,
+  "smoke_only": true
+}

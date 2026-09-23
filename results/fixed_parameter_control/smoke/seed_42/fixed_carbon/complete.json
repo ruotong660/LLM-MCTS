@@ -1,0 +1,7 @@
+{
+  "seed": 42,
+  "strategy": "fixed_carbon",
+  "steps": 12,
+  "seconds": 2.6633220410001286,
+  "smoke_only": true
+}

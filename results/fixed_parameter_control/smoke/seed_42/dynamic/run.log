@@ -1,0 +1,26 @@
+
+========== 开始运行 dynamic ==========
+动态语义切换计划： 0:cost_priority,4:low_carbon_priority,8:peak_aware
+schema 路径： data/datasets/citylearn_challenge_2022_phase_1/schema.json
+data 目录： data/datasets/citylearn_challenge_2022_phase_1
+MAX_REAL_STEPS = 12
+MCTS_ITERATIONS = 8
+ROLLING_HORIZON = 4
+EXPLORATION_C = 1.2
+
+[语义切换] step=0, scenario=cost_priority, semantic_param_path=results/fixed_parameter_control/smoke/parameters/cost_priority.json
+
+[语义切换] step=4, scenario=low_carbon_priority, semantic_param_path=results/fixed_parameter_control/smoke/parameters/low_carbon_priority.json
+
+[语义切换] step=8, scenario=peak_aware, semantic_param_path=results/fixed_parameter_control/smoke/parameters/peak_aware.json
+
+短测试达到 12 步，提前停止。
+
+========== dynamic 运行结束 ==========
+实际运行步数： 12
+总耗时： 1.813690185546875 秒
+动作记录保存到： results/fixed_parameter_control/smoke/seed_42/dynamic/dynamic_actions_debug.csv
+切换记录保存到： results/fixed_parameter_control/smoke/seed_42/dynamic/dynamic_switch_log.csv
+
+注意：当前是短测试，不生成正式 KPI。
+确认无报错后，用 --max-real-steps None 再跑全年。

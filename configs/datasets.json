@@ -1,0 +1,7 @@
+{
+  "cl_2022_p1": {
+    "schema_path": "data/datasets/citylearn_challenge_2022_phase_1/schema.json",
+    "data_dir": "data/datasets/citylearn_challenge_2022_phase_1",
+    "description": "CityLearn Challenge 2022 Phase 1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "scenario_name": "cost_优先",
+  "price_weight": 0.55,
+  "carbon_weight": 0.45,
+  "low_q": 0.2,
+  "high_q": 0.8,
+  "rbc_action_magnitude": 0.1,
+  "alignment_weight": 8.0,
+  "policy_prior_weight": 2.0,
+  "smooth_weight": 0.3,
+  "peak_charge_penalty_weight": 1.0,
+  "explanation": "根据要求，优先降低运行成本，因此price_weight较高；同时兼顾基本低碳约束，carbon_weight设为0.3。低电价时段充电、高电价放电以实现成本优化，smooth_weight设为0.5抑制频繁切换，peak_charge_penalty_weight设为1.5避免晚高峰充电。",
+  "source_text": "当前调度阶段以降低运行成本为主要目标。在满足基本低碳要求和储能安全运行约束的前提下，应优先减少高电价时段的购电成本。储能系统可以倾向于在低电价时段充电，在高电价时段放电，同时避免过于频繁的充放电切换。\n",
+  "model_name": "deepseek-v4-flash",
+  "llm_provider": "deepseek",
+  "scenario_file": "cost_priority.txt"
+}

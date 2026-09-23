@@ -1,0 +1,17 @@
+{
+  "scenario_name": "low_carbon_priority",
+  "price_weight": 0.48,
+  "carbon_weight": 0.52,
+  "low_q": 0.2,
+  "high_q": 0.8,
+  "rbc_action_magnitude": 0.1,
+  "alignment_weight": 8.0,
+  "policy_prior_weight": 2.0,
+  "smooth_weight": 0.3,
+  "peak_charge_penalty_weight": 1.0,
+  "explanation": "低碳优先，碳权重高于价格权重（0.6 vs 0.4），保障成本基本可控。低高分位阈值设为0.2/0.8，动作幅度0.1，方向匹配权重10以强化低碳低价充、高碳高价放，平滑权重0.5减少频繁切换，峰时充电惩罚1.5抑制高碳时段充电。",
+  "source_text": "当前调度阶段要求优先降低碳排放。在保证运行成本基本可控的前提下，应尽量减少高碳强度时段的电网购电。储能系统应倾向于在低碳、低价时段充电，在高碳或高价时段放电，并减少频繁充放电切换。\n",
+  "model_name": "deepseek-v4-flash",
+  "llm_provider": "deepseek",
+  "scenario_file": "low_carbon_priority.txt"
+}

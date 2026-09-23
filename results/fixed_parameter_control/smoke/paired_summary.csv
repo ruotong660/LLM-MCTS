@@ -1,0 +1,13 @@
+fixed_strategy,period,target,cost_delta_mean,cost_delta_std,cost_delta_count,cost_delta_pct_mean,cost_delta_pct_std,cost_delta_pct_count,carbon_kg_delta_mean,carbon_kg_delta_std,carbon_kg_delta_count,carbon_kg_delta_pct_mean,carbon_kg_delta_pct_std,carbon_kg_delta_pct_count,peak_kw_delta_mean,peak_kw_delta_std,peak_kw_delta_count,peak_kw_delta_pct_mean,peak_kw_delta_pct_std,peak_kw_delta_pct_count,controller_peak_kw_delta_mean,controller_peak_kw_delta_std,controller_peak_kw_delta_count,controller_peak_kw_delta_pct_mean,controller_peak_kw_delta_pct_std,controller_peak_kw_delta_pct_count
+fixed_carbon,full,all,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,,,0,,,0
+fixed_carbon,stage_1,cost_priority,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,,,0,,,0
+fixed_carbon,stage_2,low_carbon_priority,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,,,0,,,0
+fixed_carbon,stage_3,peak_aware,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,,,0,,,0
+fixed_cost,full,all,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,,,0,,,0
+fixed_cost,stage_1,cost_priority,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,,,0,,,0
+fixed_cost,stage_2,low_carbon_priority,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,,,0,,,0
+fixed_cost,stage_3,peak_aware,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,,,0,,,0
+fixed_peak,full,all,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,,,0,,,0
+fixed_peak,stage_1,cost_priority,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,,,0,,,0
+fixed_peak,stage_2,low_carbon_priority,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,,,0,,,0
+fixed_peak,stage_3,peak_aware,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,0.0,,1,,,0,,,0

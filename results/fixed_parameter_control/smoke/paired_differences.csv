@@ -1,0 +1,13 @@
+seed,period,target,fixed_strategy,cost_delta,cost_delta_pct,carbon_kg_delta,carbon_kg_delta_pct,peak_kw_delta,peak_kw_delta_pct,controller_peak_kw_delta,controller_peak_kw_delta_pct
+42,full,all,fixed_carbon,0.0,0.0,0.0,0.0,0.0,0.0,,
+42,stage_1,cost_priority,fixed_carbon,0.0,0.0,0.0,0.0,0.0,0.0,,
+42,stage_2,low_carbon_priority,fixed_carbon,0.0,0.0,0.0,0.0,0.0,0.0,,
+42,stage_3,peak_aware,fixed_carbon,0.0,0.0,0.0,0.0,0.0,0.0,,
+42,full,all,fixed_cost,0.0,0.0,0.0,0.0,0.0,0.0,,
+42,stage_1,cost_priority,fixed_cost,0.0,0.0,0.0,0.0,0.0,0.0,,
+42,stage_2,low_carbon_priority,fixed_cost,0.0,0.0,0.0,0.0,0.0,0.0,,
+42,stage_3,peak_aware,fixed_cost,0.0,0.0,0.0,0.0,0.0,0.0,,
+42,full,all,fixed_peak,0.0,0.0,0.0,0.0,0.0,0.0,,
+42,stage_1,cost_priority,fixed_peak,0.0,0.0,0.0,0.0,0.0,0.0,,
+42,stage_2,low_carbon_priority,fixed_peak,0.0,0.0,0.0,0.0,0.0,0.0,,
+42,stage_3,peak_aware,fixed_peak,0.0,0.0,0.0,0.0,0.0,0.0,,

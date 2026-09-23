@@ -1,0 +1,18 @@
+{
+  "python": "3.10.11",
+  "system": "Darwin",
+  "machine": "arm64",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "torch": "2.12.0",
+    "gymnasium": "0.28.1",
+    "scikit-learn": "1.2.2",
+    "scipy": "1.15.3",
+    "simplejson": "4.1.1",
+    "PyYAML": "6.0.3",
+    "openai": "2.37.0",
+    "requests": "2.34.2",
+    "platformdirs": "4.9.6"
+  }
+}

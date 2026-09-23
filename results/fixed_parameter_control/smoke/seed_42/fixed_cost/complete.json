@@ -1,0 +1,7 @@
+{
+  "seed": 42,
+  "strategy": "fixed_cost",
+  "steps": 12,
+  "seconds": 2.1395312500001182,
+  "smoke_only": true
+}

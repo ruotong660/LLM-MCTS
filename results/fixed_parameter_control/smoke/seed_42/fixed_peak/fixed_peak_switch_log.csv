@@ -1,0 +1,2 @@
+time_step,semantic_scenario_key,semantic_param_path,scenario_name,price_weight,carbon_weight,peak_charge_penalty_weight
+0,peak_aware,results/fixed_parameter_control/smoke/parameters/peak_aware.json,peak_load_control,0.5,0.5,1.1

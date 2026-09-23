@@ -1,0 +1,17 @@
+{
+  "scenario_name": "peak_load_control",
+  "price_weight": 0.5,
+  "carbon_weight": 0.5,
+  "low_q": 0.2,
+  "high_q": 0.8,
+  "rbc_action_magnitude": 0.1,
+  "alignment_weight": 8.0,
+  "policy_prior_weight": 2.0,
+  "smooth_weight": 0.3,
+  "peak_charge_penalty_weight": 1.1,
+  "explanation": "重点控制晚高峰负荷，避免晚高峰充电并鼓励放电，故高峰充电惩罚权重较高。成本和碳排放权重均等，兼顾两者。动作平滑和能碳方向权重适中。",
+  "source_text": "当前调度阶段重点关注晚高峰时段的电网负荷控制。储能系统应避免在晚高峰时段充电，并尽量在晚高峰时段放电以降低峰值负荷。在此基础上兼顾运行成本和碳排放，同时保持动作平滑。\n",
+  "model_name": "deepseek-v4-flash",
+  "llm_provider": "deepseek",
+  "scenario_file": "peak_aware.txt"
+}

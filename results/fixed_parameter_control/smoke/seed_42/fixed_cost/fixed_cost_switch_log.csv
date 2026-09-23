@@ -1,0 +1,2 @@
+time_step,semantic_scenario_key,semantic_param_path,scenario_name,price_weight,carbon_weight,peak_charge_penalty_weight
+0,cost_priority,results/fixed_parameter_control/smoke/parameters/cost_priority.json,cost_优先,0.55,0.45,1.0
