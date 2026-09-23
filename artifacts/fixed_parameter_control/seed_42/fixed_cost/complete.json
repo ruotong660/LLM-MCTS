@@ -1,0 +1,7 @@
+{
+  "seed": 42,
+  "strategy": "fixed_cost",
+  "steps": 8759,
+  "seconds": 9150.825065833982,
+  "smoke_only": false
+}

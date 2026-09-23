@@ -1,0 +1,7 @@
+{
+  "seed": 42,
+  "strategy": "fixed_peak",
+  "steps": 8759,
+  "seconds": 7932.29530008405,
+  "smoke_only": false
+}
